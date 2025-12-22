@@ -19,5 +19,3 @@
 ## 3. Logique de calcul
 - Calcul d'un score de réussite (en pourcentage) par session.
 - Distinction entre la performance sur le Recto et sur le Verso.
-
----
