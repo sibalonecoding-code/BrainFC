@@ -30,7 +30,8 @@ Pallier les défaillances de la mémoire immédiate en automatisant le rappel d'
     - Échec de réponse : Rapprochement de la prochaine échéance.
     - Succès de réponse : Espacement progressif de la prochaine échéance.
 
-## 5. Objectifs de Formation (Portfolio)
+## 5. Objectifs du projet
 - Démontrer une capacité à structurer un projet de A à Z.
 - Prouver la maîtrise de la logique algorithmique (gestion des dates et intervalles).
 - Montrer une aisance avec l'environnement CLI et la persistance de données.
+- Agrandir le portfolio
