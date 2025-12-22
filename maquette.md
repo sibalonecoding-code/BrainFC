@@ -1,6 +1,9 @@
+# Maquette / User Flow
+
+---
 (1)
 
-                                           Brain FC
+## Brain FC
 
     > Apprendre (2)
     - Éditeur (6)
@@ -11,7 +14,7 @@
 ---
 (2)
 
-                                         Choix du thème
+## Choix du thème
 
     > Animaux (3)                   - Les records sportifs (3)     - Tableau périodique des éléments (3) 
     - Le langage python (3)         - Nom de fleurs (3)            - Code de la route (3)
@@ -20,7 +23,7 @@
 ---
 (3)
                                            
-                                            Animaux
+## Animaux
 
     Question: Quel est le mammifère terrestre le plus lourd?
     Réponse:
@@ -29,16 +32,16 @@
 ---
 (4)
 
-                                           Vrai/Faux
-    
+## Vrai/Faux
+
     Bravo/Dommage la réponse était:
     Éléphant (3)(5)
 
 ---
 (5)
 
-                                           Résultats
-    
+## Résultats
+
     Le rappel est terminé, vous vous êtes souvenu de 4 réponse sur 5.
     Recto 75%
     Verso 100%
@@ -50,7 +53,7 @@
 ---
 (6)
 
-                                            Éditeur
+## Éditeur
 
     > Nouveau thème / dossier (7)
     - Modifier un thème / dossier ()
@@ -59,7 +62,7 @@
 ---
 (7)
 
-                                Création du thème / dossier (1/2)
+## Création du thème / dossier (1/2)
 
     Nom du thème / dossier:
         <l'utilisateur tape le nom du thème> (8)
@@ -67,7 +70,7 @@
 ---
 (8)
 
-                                Création du thème / dossier (2/2)
+## Création du thème / dossier (2/2)
     
     > Créer (9)
     - Retour (6)
@@ -75,7 +78,7 @@
 ---
 (9)
 
-                                   Édition de thème / dossier
+## Édition de thème / dossier
 
     > Créer une carte (10)
     - Modifier une carte ()
@@ -85,7 +88,7 @@
 ---
 (10)
 
-                                    Édition de carte mémoire
+## Édition de carte mémoire
 
     > Insérer élément (11)
     - Modifier élément (14)
@@ -96,7 +99,7 @@
 ---
 (11)
 
-                              Insertion d'élément de carte mémoire
+## Insertion d'élément de carte mémoire
 
     Texte de l'élément
         <l'utilisateur tape l'élément> (12)
@@ -104,7 +107,7 @@
 ---
 (12)
 
-                                   Positionnement de l'élément
+## Positionnement de l'élément
 
     > Recto (13)
     - Verso (13)
@@ -113,7 +116,7 @@
 ---
 (13)
 
-                                   Statut de la carte mémoire
+## Statut de la carte mémoire
     
     Recto:
       -> synonyme de communiquer
@@ -129,7 +132,7 @@
 ---
 (14)
 
-                              Modification d'élément de carte mémoire
+## Modification d'élément de carte mémoire
 
     > synonyme de communiquer (11)
     - antonyme de garder le silence (11)
@@ -141,7 +144,7 @@
 ---
 (15)
 
-                               Suppression d'élément de carte mémoire
+## Suppression d'élément de carte mémoire
 
     > synonyme de communiquer (10)
     - antonyme de garder le silence (10)
@@ -153,7 +156,7 @@
 ---
 (16)
 
-                                     Statut de la carte mémoire
+## Statut de la carte mémoire
     
     Recto:
       -> synonyme de communiquer
@@ -164,4 +167,3 @@
       -> échanger
 
     > Retour (10)
-

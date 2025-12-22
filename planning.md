@@ -5,7 +5,7 @@
 | 1     | Identifier le besoin et l'objectif du client        | 30 min à 1h  | 22 déc. 2025        | ✅ Terminé |
 | 2     | Identifier les outils nécessaires (Stack)           | 30 min à 1h  | 22 déc. 2025        | ✅ Terminé |
 | 3     | Faire une maquette et architecture (User Flow)      | 3 à 4h       | 22 déc. 2025        | ✅ Terminé |
-| 4     | Développer le prototype (MVP)                       | 4 à 5 j      | 23 au 27 déc. 2025  | ⏳ À venir |
+| 4     | Développer le prototype (MVP)                       | 4 à 5 j      | 23 au 26 déc. 2025  | ⏳ À venir |
 | 5     | Mettre en place une série de tests                  | 3 à 4h       | 29 déc. 2025        | 📅 Prévu   |
 | 6     | Débugger, corriger et optimiser                     | 1 à 3 j      | 29 au 31 déc. 2025  | 📅 Prévu   |
 | 7     | Déploiement sur GitHub (Cleanup & Doc)              | 30 min à 2h  | 1 janv. 2026        | 📅 Prévu   |
