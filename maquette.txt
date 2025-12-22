@@ -1,0 +1,167 @@
+(1)
+
+                                           Brain FC
+
+    > Apprendre (2)
+    - Éditeur (6)
+    - Statistiques ()
+    - Options ()
+    - Quitter
+
+---
+(2)
+
+                                         Choix du thème
+
+    > Animaux (3)                   - Les records sportifs (3)     - Tableau périodique des éléments (3) 
+    - Le langage python (3)         - Nom de fleurs (3)            - Code de la route (3)
+    - Média et manipulation (3)     - Le cerveau (3)               - Retour (1)
+
+---
+(3)
+                                           
+                                            Animaux
+
+    Question: Quel est le mammifère terrestre le plus lourd?
+    Réponse:
+        <l'utilisateur tape la réponse> (4)
+
+---
+(4)
+
+                                           Vrai/Faux
+    
+    Bravo/Dommage la réponse était:
+    Éléphant (3)(5)
+
+---
+(5)
+
+                                           Résultats
+    
+    Le rappel est terminé, vous vous êtes souvenu de 4 réponse sur 5.
+    Recto 75%
+    Verso 100%
+    Total 80%
+
+    > Menu principal (1)
+    - Quitter
+
+---
+(6)
+
+                                            Éditeur
+
+    > Nouveau thème / dossier (7)
+    - Modifier un thème / dossier ()
+    - Retour (1)
+
+---
+(7)
+
+                                Création du thème / dossier (1/2)
+
+    Nom du thème / dossier:
+        <l'utilisateur tape le nom du thème> (8)
+
+---
+(8)
+
+                                Création du thème / dossier (2/2)
+    
+    > Créer (9)
+    - Retour (6)
+
+---
+(9)
+
+                                   Édition de thème / dossier
+
+    > Créer une carte (10)
+    - Modifier une carte ()
+    - Supprimer une carte ()
+    - Retour (6)
+
+---
+(10)
+
+                                    Édition de carte mémoire
+
+    > Insérer élément (11)
+    - Modifier élément (14)
+    - Supprimer élément (15)
+    - Afficher (16)
+    - Retour (9)
+
+---
+(11)
+
+                              Insertion d'élément de carte mémoire
+
+    Texte de l'élément
+        <l'utilisateur tape l'élément> (12)
+
+---
+(12)
+
+                                   Positionnement de l'élément
+
+    > Recto (13)
+    - Verso (13)
+    - Retour (11)
+
+---
+(13)
+
+                                   Statut de la carte mémoire
+    
+    Recto:
+      -> synonyme de communiquer
+      -> antonyme de garder le silence
+    Verso:
+      -> discuter
+      -> parler
+      -> échanger
+
+    > Confirmer (9)
+    - Retour (12)
+
+---
+(14)
+
+                              Modification d'élément de carte mémoire
+
+    > synonyme de communiquer (11)
+    - antonyme de garder le silence (11)
+    - discuter (11)
+    - parler (11)
+    - échanger (11)
+    - Retour (10)
+
+---
+(15)
+
+                               Suppression d'élément de carte mémoire
+
+    > synonyme de communiquer (10)
+    - antonyme de garder le silence (10)
+    - discuter (10)
+    - parler (10)
+    - échanger (10)
+    - Retour (10)
+
+---
+(16)
+
+                                     Statut de la carte mémoire
+    
+    Recto:
+      -> synonyme de communiquer
+      -> antonyme de garder le silence
+    Verso:
+      -> discuter
+      -> parler
+      -> échanger
+
+    > Retour (10)
+
