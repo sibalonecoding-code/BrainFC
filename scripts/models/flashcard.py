@@ -2,25 +2,23 @@
 
 # load modules
 import datetime
+from __future__ import annotations
 
 
 class FlashCard:
 
-    DATE_FORMAT = "%d/%m/%Y - %H:%M:%S"
+    DATE_FORMAT = "%d/%m/%Y"
 
-    def __init__(self,
-                 front:list,
-                 back:list,
-                 intensity:int=2):
-        self.front = front
-        self.back = back
-        self.intensity = intensity
-        self.interval = 0
-        self.next_review = datetime.date.today()
-        self.last_review = datetime.date.today()
-        self.success_streak = 0
-        self.error_streak = 0
-        self.learned = False
+    def __init__(self, **kwargs):
+        self.front:list = kwargs.get("front", list())
+        self.back:list = kwargs.get("back", list())
+        self.intensity:int = kwargs.get("intensity", 2)
+        self.interval:int = kwargs.get("interval", 0)
+        self.last_review = kwargs.get("last_review", datetime.date.today())
+        self.next_review = kwargs.get("next_review", datetime.date.today())
+        self.success_streak:int = kwargs.get("success_streak", 0)
+        self.error_streak:int = kwargs.get("error_streak", 0)
+        self.learned:bool = kwargs.get("learned", False)
 
     def ready(self) -> bool:
         """ Tell if this card should be reviewed """
@@ -65,17 +63,20 @@ class FlashCard:
             "learned": self.learned
         }
     
-    def from_dict(self, data:dict) -> None:
-        """ Load data from dictionnary in FlashCard instance's data """
-        self.front = data["front"]
-        self.back = data["back"]
-        self.intensity = data["intensity"]
-        self.interval = data["interval"]
-        self.last_review = datetime.datetime.strptime(data["last_review"], FlashCard.DATE_FORMAT).date()
-        self.next_review = datetime.datetime.strptime(data["next_review"], FlashCard.DATE_FORMAT).date()
-        self.success_streak = data["success_streak"]
-        self.error_streak = data["error_streak"]
-        self.learned = data["learned"]
+    @classmethod
+    def from_dict(cls, data:dict) -> FlashCard:
+        """ Get a FrashCard from data in a dictionnary """
+        return cls(
+            front = data["front"],
+            back = data["back"],
+            intensity = data["intensity"],
+            interval = data["interval"],
+            last_review = datetime.datetime.strptime(data["last_review"], FlashCard.DATE_FORMAT).date(),
+            next_review = datetime.datetime.strptime(data["next_review"], FlashCard.DATE_FORMAT).date(),
+            success_streak = data["success_streak"],
+            error_streak = data["error_streak"],
+            learned = data["learned"]
+        )
 
 if __name__ == "__main__":
 
