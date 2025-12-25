@@ -1,8 +1,6 @@
 
 
 # load modules
-import inquirer
-import rich
 
 
 # program starting point
