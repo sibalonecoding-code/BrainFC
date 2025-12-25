@@ -1,8 +1,8 @@
 
 
 # load modules
-import datetime
 from __future__ import annotations
+import datetime
 
 
 class FlashCard:
@@ -77,7 +77,3 @@ class FlashCard:
             error_streak = data["error_streak"],
             learned = data["learned"]
         )
-
-if __name__ == "__main__":
-
-    card = FlashCard([], [])
