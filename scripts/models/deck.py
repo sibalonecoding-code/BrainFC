@@ -17,11 +17,17 @@ class Deck:
 
     def __init__(self, name:str, **kwargs):
         self.name = name
-        self.flashcards: list[FlashCard] = kwargs.get("flashcards", list())
+        self.flashcards:list[FlashCard] = kwargs.get("flashcards", list())
         self.storage_path = kwargs.get("storage_path", "")
         if self.storage_path:
             self.load()
 
+    def ready(self):
+        for flashcard in self.flashcards:
+            if flashcard.ready():
+                return True
+        return False
+    
     def load(self):
         # Handle not existing file
         if not os.path.exists(self.storage_path):
@@ -40,7 +46,6 @@ class Deck:
             flashcards.append(flashcard.to_dict())
         with open(self.storage_path, "w", encoding="utf-8") as file:
             json.dump(flashcards, file, ensure_ascii=False)
-
 
     def add_flashcard(self, flashcard:FlashCard):
         self.flashcards.append(flashcard)
