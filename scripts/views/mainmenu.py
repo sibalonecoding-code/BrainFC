@@ -12,7 +12,7 @@ from rich.panel import Panel
 console = Console()
 
 
-class MainMenu:
+class MainMenuView:
 
     @staticmethod
     def display_welcome():
@@ -32,7 +32,7 @@ class MainMenu:
         questions = [
             inquirer.List("menu",
                           message="Menu Principal (Entrée 🮴 pour confirmer)",
-                          choices=["Apprendre", "Éditeur", "Statistiques", "Options", "Quitter"])
+                          choices=["Apprendre", "Éditeur", "Statistiques", "Paramètres", "Quitter"])
         ]
         answers = inquirer.prompt(questions=questions)
         return answers["menu"]

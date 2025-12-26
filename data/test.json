@@ -1,0 +1,13 @@
+[
+    {
+        "front": ["Quel est le mammifère terrestre le plus lourd ?"],
+        "back": ["L'éléphant d'Afrique"],
+        "intensity": 2,
+        "interval": 0,
+        "last_review": "26/12/2025",
+        "next_review": "26/12/2025",
+        "success_streak": 0,
+        "error_streak": 0,
+        "learned": false
+    }
+]
